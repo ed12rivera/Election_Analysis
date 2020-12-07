@@ -46,3 +46,5 @@ Depending on the data available we could track any number of metrics with just a
 
 With a few extra additions our code should even be able to track elections for multiple states.  With a data source similar to our current one, but with multiple states data we should be able to loop through the states as well.  After line 44 in our code we would write a for loop that starts with the first state in our data source then runs lines 47 -78 to get the candidates list, candidate results, county list, and country results for the state and then loop back and go on to the next state in the data source.  We would also start a loop after line 83 to print out the winner for each state and end at the end of our current code. 
 
+![code_insertion1](Analysis/Picture1_3.png)
+![code_insertion2](Analysis/Picture2_3.png)
